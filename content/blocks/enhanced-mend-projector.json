@@ -1,0 +1,52 @@
+{
+    "name": "Enchanced mend projector"
+    "description": "The fastest repairing projector, but requires a phase cloth",
+    "type": "MendProjector",
+    "health": 600,
+    "size": 3,
+    "itemCapacity": 50,
+    "range": 150,
+    "reload": 180,
+    "baseColor": "#17C50B",
+    "buildCostMultiplier": 0.5,
+    "healPercent": 55,
+    "consumes": {
+        "power": 15,
+        "items": {
+            "items": [
+                {
+                    "item": "phase-fabric",
+                    "amount": 15
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "plate",
+            "amount": 900
+        },
+        {
+            "item": "phase-fabric",
+            "amount": 400
+        },
+        {
+            "item": "graphite",
+            "amount": 550
+        },
+        {
+            "item": "silicon",
+            "amount": 1100
+        },
+        {
+            "item": "plastanium",
+            "amount": 700
+        },
+        {
+            "item": "titanium",
+            "amount": 1350
+        }
+    ],
+    "category": "effect",
+    "research": "mend-projector"
+}

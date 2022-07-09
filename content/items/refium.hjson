@@ -1,0 +1,7 @@
+type: material
+name: Refium
+description: Synthetic radioactive alloy. Used mainly for anti-air purposes.
+color: 00875A
+hardness: 6
+radioactivity: 0.8
+explosiveness: 0.35

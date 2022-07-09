@@ -1,0 +1,45 @@
+{
+    "name": "Fasted Ment Projector",
+    "description": "Very fast repair projector but thorium is required",
+    "type": "MendProjector",
+    "health": 250,
+    "size": 2,
+    "range": 165,
+    "reload": 18,
+    "phaseBoost": 2,
+    "baseColor": "#17C50B",
+    "buildCostMultiplier": 0.8,
+    "healPercent": 0.6,
+    "consumes": {
+        "power": 2,
+        "items": {
+            "items": [
+                {
+                    "amount": 1,
+                    "item": "thorium"
+                }
+            ],
+            "optional": true
+        }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 150
+        },
+        {
+            "item": "lead",
+            "amount": 175
+        },
+        {
+            "item": "silicon",
+            "amount": 120
+        },
+        {
+            "item": "titanium",
+            "amount": 120
+        }
+    ],
+    "category": "effect",
+    "research": "mend-projector"
+}

@@ -1,0 +1,10 @@
+{
+"name": "Shield",
+"speedMultiplier": 1.25,
+"show": true,
+"effect": "melting",
+"opposites": ["irradiated"],
+"affinities": ["molten", "xegon-fier"],
+"transitionDamage": 0,
+"healthMultiplier": 1.25
+}

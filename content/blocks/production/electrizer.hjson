@@ -1,0 +1,29 @@
+name: electrizer
+type: GenericCrafter
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+itemCapacity: 30
+updateEffect: pulverizeSmall
+consumes: {
+  power: 1
+  items: {
+    items: [
+      blast-compound/2
+      coal/3
+      lithium/2
+    ]
+  }
+}
+requirements: [
+  lead/35
+  graphite/25
+  thorium/60
+  plate/40
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 2
+outputItem: radium/2

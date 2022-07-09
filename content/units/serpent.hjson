@@ -1,0 +1,118 @@
+Name: Serpent
+localizedName: Serpent
+description: A fairly strong enemy drone from which you need to protect your core
+commandLimit: 8
+speed: 1.0
+drag: 0.16
+accel: 0.33
+rotateSpeed: 15.75
+lightColor: bf92f9
+//mineSpeed: 5
+//mineTier: 2
+health: 400
+armor: 3
+range: 280
+itemCapacity: 50
+hitSize: 11
+rotateShooting: false
+immunities: [wet, sapped, corroded, shocked]
+trailLength: 25
+trailX: 0
+trailY: -5
+
+weapons:[
+  {
+    name: serpent-arc
+    x: 5
+    y: 2
+    shootY: 4
+    recoil: 1
+    reload: 19
+	inaccuracy: 5
+	occlusion: 5
+	shots: 2
+    rotate: true
+    soundPitchMin: 1.7
+    soundPitchMax: 2.4
+    shootSound: spark
+    shootEffect: sparkShoot
+    bullet:{
+      type: LightningBulletType
+	  lightningColor: A387EA
+	  hitColor: 8A73C6
+      lightningLength: 13
+      lightningLengthRand: 13
+      lifetime: 1
+	  range: 184
+	  damage: 11
+    }
+  },
+  {
+    name: serpent-arc
+    x: 0
+    y: 12
+    shootY: 4
+    recoil: 1
+    reload: 38
+	inaccuracy: 4
+	occlusion: 5
+	shots: 4
+    rotate: true
+    mirror: false
+    soundPitchMin: 1.7
+    soundPitchMax: 2.4
+    shootSound: spark
+    shootEffect: sparkShoot
+    bullet:{
+      type: LightningBulletType
+	  lightningColor: A387EA
+	  hitColor: 8A73C6
+      lightningLength: 18
+      lightningLengthRand: 13
+      lifetime: 1
+	  range: 184
+	  damage: 11
+    }
+  },
+  {
+    name: spiroct-weapon
+    x: 3
+    y: -4.2
+    shootY: 4
+    recoil: 3
+    reload: 59
+	shots: 9
+	inaccuracy: 15
+	velocityRnd: 0.25
+	rotateSpeed: 10
+	occlusion: 6
+    rotate: true
+    top: true
+    soundPitchMin: 1.2
+    soundPitchMax: 1.4
+    shootSound: shotgun
+    bullet:{
+      type: BasicBulletType
+      //sapStrength: 0.5
+	  frontColor: a59bc1
+	  backColor: 837e91
+      shootEffect: shootBig
+      width: 3
+      height: 7
+      speed: 10
+      sprite: diamond-ore-diamondbullet
+      lifetime: 40
+	  damage: 11
+    }
+  }
+]
+
+research: {
+  parent: siren
+  requirements:[
+      silicon/5000
+      graphite/6000
+      vicvium/2000
+      plate/3500
+  ]
+}

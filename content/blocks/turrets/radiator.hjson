@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Radiator
+description: Fires powerful bullets at a fast rate. Uses large amounts of ammo.
+health: 1480
+size: 3
+reloadTime: 10
+range: 200
+inaccuracy: 8
+rotateSpeed: 15
+ammoTypes: {
+  thorium: {
+    speed: 5
+    damage: 18
+    ammoMultiplier: 2.5
+    width: 5
+    reloadMultiplier: 1.6
+    height: 8
+  }
+  phase-fabric: {
+    speed: 5
+    damage: 17
+    ammoMultiplier: 2.7
+    width: 5
+    height: 8
+    pierce: true
+    pierceCap: 5
+    reloadMultiplier: 1.5
+    status: electrified
+    statusDuration: 240
+  }
+  lithium: {
+    speed: 5
+    damage: 9
+    splashDamage: 13
+    splashDamageRadius: 40
+    ammoMultiplier: 2.5
+    reloadMultiplier: 1.5
+    width: 5
+    height: 8
+  }
+  radium: {
+    speed: 4
+    damage: 21
+    ammoMultiplier: 2.5
+    width: 5
+    height: 8
+    reloadMultiplier: 1.7
+    homingPower: 0.07
+    status: burning
+    statusDuration: 240
+  }
+}
+requirements: [
+  lithium/35
+  vicvium/80
+  lead/150
+  silicon/330
+  surge-alloy/200
+  radium/60
+]
+category: turret
+research: cyclone

@@ -1,0 +1,7 @@
+type: OreBlock
+itemDrop: cobalt
+playerUnmineable: true
+oreDefault: true
+variants: 3
+oreScale: 20
+oreThreshold: 0.90

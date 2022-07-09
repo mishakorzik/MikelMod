@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "plate",
+	"description": "the metal plate is very strong",
+	"color": "cfc5c4",
+	"explosiveness": 0f,
+	"flammability": 0f,
+	"radioactivity": 0f,
+	"hardness": 0,
+	"cost": 1f,
+	"alwaysUnlocked": false
+}

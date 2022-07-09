@@ -1,0 +1,91 @@
+health: 1560
+type: ItemTurret
+name: Storm
+description: The fastest turret in the game
+size: 4
+reloadTime: 3
+shots: 25
+ejectEffect: shellEjectSmall
+inaccuracy: 7
+spread: 0
+rotateSpeed: 4
+range: 210
+recoil: 3.5
+velocityInaccuracy: 0.3
+targetAir: true
+ammoTypes: {
+  copper: {
+    speed: 5.6
+    damage: 7
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 40
+    homingPower: 0.05
+    homingRange: 240
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 2
+    bulletHeight: 3
+    collidesAir: false
+    reloadMultiplier: 2.6
+    sprite: ArtilleryBulletType
+  }
+  lead: {
+    speed: 5.6
+    damage: 9
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 40
+    homingPower: 0.05
+    homingRange: 240
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 2.7
+    sprite: ArtilleryBulletType
+  }
+  cobalt: {
+    speed: 5.6
+    damage: 11
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 40
+    homingPower: 0.05
+    homingRange: 240
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 2.5
+    sprite: ArtilleryBulletType
+  }
+  graphite: {
+    speed: 5.4
+    damage: 13
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 40
+    homingPower: 0.05
+    homingRange: 240
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 4
+    bulletHeight: 5
+    collidesAir: false
+    reloadMultiplier: 2.6
+    sprite: ArtilleryBulletType
+  }
+}
+requirements: [
+  cobalt/145
+  titanium/60
+  plate/90
+  vicvium/85
+  thorium/120
+]
+research: scoria
+category: turret
+shootSound: shotgun

@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "materia",
+	"description": "matter for equipment improvement",
+	"color": "171615",
+	"explosiveness": 0.2f,
+	"flammability": 0.3f,
+	"radioactivity": 0.1f,
+	"hardness": 0,
+	"cost": 1f,
+	"alwaysUnlocked": false
+}

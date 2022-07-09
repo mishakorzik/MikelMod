@@ -1,0 +1,12 @@
+{
+"name": "freezed plus",
+"speedMultiplier": 0.60,
+"show": true,
+"effect": "melting",
+"opposites": ["molten", "melting", "burning"],
+"affinities": ["shocked", "freezing", "wet"],
+"transitionDamage": 4,
+"damage": 0.02,
+"healthMultiplier": 0.80,
+"reloadMultiplier": 0.60
+}

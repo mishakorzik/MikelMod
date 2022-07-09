@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "blastanium",
+	"description": "very good material for something laser!",
+	"color": "850c12",
+	"explosiveness": 0.7f,
+	"flammability": 0.3f,
+	"radioactivity": 0f,
+	"hardness": 0,
+	"cost": 1f,
+	"alwaysUnlocked": false
+}

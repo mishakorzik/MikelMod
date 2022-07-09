@@ -1,0 +1,131 @@
+type: LiquidTurret
+name: Scoria
+description: A powerful turret for dousing enemies with various liquids, the turret turns liquid into balls and fires powerful projectiles.
+size: 3
+health: 840
+range: 190
+maxAmmo: 45
+recoil: 3
+shots: 30
+velocityInaccuracy: 0.5
+spread: 3
+reloadTime: 60
+inaccuracy: 10
+shootCone: 60
+shootSound: splash
+shootEffect: shootLiquid
+liquidCapacity: 45
+ammoPerShot: 9
+activeSound: splash
+
+ammoTypes: {
+	slag: {
+		type: LiquidBulletType
+		liquid: slag
+		damage: 9
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: molten
+		statusDuration: 440
+		puddleSize: 8
+	}
+	water: {
+		type: LiquidBulletType
+		liquid: water
+		damage: 6
+		speed: 6
+		knockback: 2.4
+		ammoMultiplier: 1
+		status: wet
+		statusDuration: 320
+		puddleSize: 8
+	}
+	cryofluid: {
+		type: LiquidBulletType
+		liquid: cryofluid
+		damage: 7
+		speed: 6
+		knockback: 1.5
+		ammoMultiplier: 1
+		status: freezing
+		statusDuration: 360
+		puddleSize: 8
+	}
+	oil: {
+		type: LiquidBulletType
+		liquid: oil 
+		damage: 7
+		speed: 6
+		knockback: 1.8
+		ammoMultiplier: 1
+		status: sapped
+		statusDuration: 560
+		puddleSize: 8
+	}
+	arkycite: {
+		type: LiquidBulletType
+		liquid: arkycite
+		damage: 9
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: irradiated
+		statusDuration: 390
+		puddleSize: 8
+	}
+	cyanogen: {
+		type: LiquidBulletType
+		liquid: cyanogen
+		damage: 6
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: sapped
+		statusDuration: 390
+		puddleSize: 8
+	}
+	ozone: {
+		type: LiquidBulletType
+		liquid: ozone
+		damage: 8
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: xegon-fier
+		statusDuration: 480
+		puddleSize: 8
+	}
+	hydrogen: {
+		type: LiquidBulletType
+		liquid: hydrogen
+		damage: 7
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: xegon-fier
+		statusDuration: 390
+		puddleSize: 8
+	}
+	nitrogen: {
+		type: LiquidBulletType
+		liquid: nitrogen
+		damage: 6
+		speed: 6
+		knockback: 1.4
+		ammoMultiplier: 1
+		status: sapped
+		statusDuration: 580
+		puddleSize: 8
+	}
+
+}
+requirements: [
+	lead/85
+	cobalt/55
+	metaglass/60
+	titanium/80
+]
+
+category: turret
+research: wave

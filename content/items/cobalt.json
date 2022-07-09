@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Cobalt",
+	"description": "Very useful ore for pumping equipment",
+	"color": "0e5a8c",
+	"explosiveness": 0f,
+	"flammability": 0f,
+	"radioactivity": 0f,
+	"hardness": 2,
+	"cost": 1f,
+	"alwaysUnlocked": false
+}

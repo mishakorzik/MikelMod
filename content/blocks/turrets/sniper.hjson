@@ -1,0 +1,97 @@
+type: ItemTurret
+name: Sniper
+description: A long range cannon. Can pierce through enemies.
+health: 250
+size: 1
+reloadTime: 420
+range: 410
+inaccuracy: 0
+rotatespeed: 60
+shots: 1
+shootSound: laser
+spread: 0
+ammoTypes: {
+  copper: {
+    speed: 10.6
+    damage: 45
+    width: 8
+    bulletHeight: 20
+    reloadMultiplier: 0.2
+    ammoMultiplier: 10
+    pierce: true
+  }
+  coal: {
+    speed: 10.6
+    damage: 60
+    width: 8
+    height: 18
+    reloadMultiplier: 0.1
+    incendAmount: 0.95
+    ammoMultiplier: 10
+    status: burning
+    statusDuration: 640
+    pierce: true
+  }
+  graphite: {
+    speed: 10.6
+    damage: 70
+    width: 8
+    height: 30
+    ammoMultiplier: 3
+    reloadMultiplier: 0.1
+    frontColor: ffffff
+    backColor: 56a7c4
+    pierce: true
+  }
+  pyratite: {
+    speed: 10.6
+    damage: 75
+    width: 8
+    height: 22
+    incendAmount: 0.25
+    ammoMultiplier: 10
+    status: molten
+    reloadMultiplier: 0.1
+    statusDuration: 720
+    frontColor: ffffff
+    backColor: e8b52a
+    pierce: true
+  }
+  plate: {
+    speed: 10.6
+    damage: 86
+    width: 8
+    height: 22
+    reloadMultiplier: 0.08
+    incendAmount: 0.25
+    ammoMultiplier: 10
+    status: shocked
+    statusDuration: 720
+    frontColor: ffffff
+    backColor: e8b52a
+    pierce: true
+  }
+  refium: {
+    speed: 10.6
+    damage: 97
+    width: 8
+    height: 26
+    reloadMultiplier: 0.08
+    incendAmount: 0.25
+    ammoMultiplier: 10
+    status: xegon-fier
+    statusDuration: 720
+    frontColor: ffffff
+    backColor: e8b52a
+    pierce: true
+  }
+}
+requirements: [
+  plate/25
+  lead/45
+  thorium/65
+  refium/50
+]
+category: turret
+research: hail
+ 

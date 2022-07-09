@@ -1,0 +1,20 @@
+{
+    "name": "Vicvium",
+    "description": "Quality material is almost like an iron plate",
+    "cost": 2.5,
+    "color": "7575C8",
+    "research": {
+        "parent": "titanium",
+        "requirements": [
+            {
+                "item": "titanium",
+                "amount": 2
+            },
+            {
+                "item": "coal",
+                "amount": 3
+            }
+        ]
+    },
+    "hardness": 1
+}

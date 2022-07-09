@@ -1,0 +1,14 @@
+{
+    "name": "armored conduit",
+    "type": "ArmoredConduit",
+    "description": "the most armored conduit",
+    "category": "liquid",
+    "health": 265,
+    "liquidCapacity": 10,
+    "liquidPressure": 0.97,
+    "research": "conduit",
+    "requirements": [
+        { "item": "plate", "amount": 2 },
+        { "item": "metaglass", "amount": 1 }
+    ]
+}

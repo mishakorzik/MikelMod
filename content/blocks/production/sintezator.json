@@ -1,0 +1,40 @@
+{
+  "name": "Sintezator",
+  "type": "GenericCrafter",
+  "localizedName": "Sintezator",
+  "description": "A factory for the production of a strong metal plate",
+  "health": 560,
+  "size": 2,
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "ambientSound": "grinding",
+  "ambiendSoundVolume": 2,
+  "updateEffect": "pulverizeSmall",
+  "craftEffect": "pulverize",
+  "requirements": [
+    "lead/100",
+    "copper/125",
+    "graphite/50",
+    "silicon/15"
+  ],
+  "consumes": {
+    "items": {
+      "items": [
+        "metaglass/3"
+	"silicon/2"
+	"titanium/2"
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.055
+    },
+    "power": 0.75
+  },
+  "outputItem": "plate/1",
+  "craftTime": 30,
+  "category": "crafting",
+  "research": "pulverizer"
+}

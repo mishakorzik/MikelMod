@@ -1,0 +1,12 @@
+{
+	"type": "material",
+	"name": "Radium",
+	"description": "very dangerous item",
+	"color": "d10a1b",
+	"explosiveness": 0.9f,
+	"flammability": 0f,
+	"radioactivity": 0.4f,
+	"hardness": 3,
+	"cost": 1f,
+	"alwaysUnlocked": false
+}

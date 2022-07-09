@@ -1,0 +1,66 @@
+{
+    "name": "centus",
+    "type": "PowerTurret",
+    "description": "A turret that does not need ammunition does a lot of damage",
+    "size": 3,
+    "health": 500,
+    "range": 260,
+    "reloadTime": 235,
+    "shots": 3,
+    "burstSpacing": 12,
+    "inaccuracy": 7,
+    "targetAir": false,
+    "targetGround": true,
+    "shootCone": 1,
+    "spread": 2,
+    "restitution": 0.05,
+    "rotateSpeed": 3,
+    "shootSound": "laser",
+    "powerUse": 4,
+    "hasPower": true,
+    "shootType": {
+        "type": "ArtilleryBulletType",
+        "status": "shocked",
+        "damage": 16,
+        "speed": 4.4,
+        "splashDamage": 25,
+        "splashDamageRadius": 64,
+        "statusDuration": 90,
+        "height": 35,
+        "width": 15,
+        "lifetime": 90,
+        "lightning": 10,
+        "lightningLength": 12,
+        "frontColor": "E8D174",
+        "backColor": "F3E979",
+        "hitSound": "spark",
+        "hitEffect": "shieldWave",
+        "shootEffect": "instShoot",
+        "despawnEffect": "shieldWave",
+        "smokeEffect": "hitFuse"
+    },
+    "requirements": [
+        {
+            "item": "vicvium",
+            "amount": 320
+        },
+        {
+            "item": "graphite",
+            "amount": 250
+        },
+        {
+            "item": "silicon",
+            "amount": 150
+        },
+        {
+            "item": "plate",
+            "amount": 220
+        },
+        {
+            "item": "titanium",
+            "amount": 350
+        }
+    ],
+    "category": "turret",
+    "research": "t2_beam"
+}

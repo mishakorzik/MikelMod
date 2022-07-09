@@ -1,0 +1,8 @@
+name: Spore Cluster 
+type: Boulder
+name: Spore Cluster Dark
+variants: 6
+buildVisibility: editorOnly
+requirements: [
+  materia/2
+]

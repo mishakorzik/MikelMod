@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Refium Forge
+description: Melts Thorium, Lithium and Phase Fabric together to create Refium.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 45
+consumes: {
+  power: 5
+  items: {
+    items: [
+      thorium/4
+      lithium/2
+      phase-fabric/1
+    ]
+  }
+}
+requirements: [
+  surge-alloy/30
+  thorium/100
+  titanium/130
+  graphite/180
+  silicon/180
+  lead/200
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.7
+outputItem: refium/1

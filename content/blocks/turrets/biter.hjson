@@ -1,0 +1,124 @@
+type: ItemTurret
+name: Biter
+description: A turret that fires a powerful swarm of homing piercing projectiles.
+health: 540
+size: 2
+reload: 20
+range: 200
+ejectEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 2.5
+maxAmmo: 60
+spread: 15
+shots: 3
+targetAir: false
+ammoTypes: {
+  lead: {
+    speed: 3.7
+    damage: 8
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 80
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 3
+    bulletHeight: 4
+    reloadMultiplier: 1.5
+    collidesAir: false
+    sprite: mikel-mod-striped-bullet
+  }
+  vicvium: {
+    speed: 3.7
+    damage: 11
+    ammoMultiplier: 5
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 80
+    backColor: 000000
+    frontColor: D0D8DF
+    bulletWidth: 3
+    bulletHeight: 4
+    status: freezing
+    statusDuration: 90
+    collidesAir: false
+    reloadMultiplier: 1.5
+    sprite: mikel-mod-striped-bullet
+  }
+  cobalt: {
+    speed: 3.6
+    damage: 14
+    ammoMultiplier: 7
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 80
+    backColor: 000000
+    frontColor: D0D8DF
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 1.5
+    sprite: mikel-mod-striped-bullet
+  }
+  plate: {
+    speed: 3.7
+    damage: 32
+    ammoMultiplier: 9
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 80
+    backColor: 000000
+    frontColor: D0D8DF
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 1.9
+    sprite: mikel-mod-striped-bullet
+  }
+  silicon: {
+    speed: 2.2
+    damage: 12
+    ammoMultiplier: 7
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 110
+    backColor: 000000
+    frontColor: D0D8DF
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 1.7
+    sprite: mikel-mod-striped-bullet
+  }
+  graphite: {
+    speed: 2.9
+    damage: 9
+    ammoMultiplier: 7
+    pierce: true
+    lifetime: 70
+    homingPower: 0.05
+    homingRange: 70
+    backColor: 000000
+    frontColor: D0D8DF
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
+    reloadMultiplier: 1.5
+    sprite: mikel-mod-striped-bullet
+  }
+}
+requirements: [
+  copper/95
+  lead/110
+  graphite/45
+  titanium/50
+  cobalt/70
+]
+coolantMultiplier: 0.8
+category: turret
+research: multishot

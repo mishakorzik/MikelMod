@@ -1,0 +1,12 @@
+{
+	"name": "Lithium large wall",
+	"description": "Well, it is a very strong wall, but it is suitable for a start",
+	"type": "Wall",
+	"health": 1420,
+	"size": 2,
+	"requirements": [
+		{"item": "lithium", "amount": 24}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

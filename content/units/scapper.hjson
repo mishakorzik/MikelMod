@@ -1,0 +1,183 @@
+localizedName: Scapper
+description: A very fashionable drone, it also has regeneration
+commandLimit: 8
+speed: 0.9
+drag: 0.13
+accel: 0.2
+rotateSpeed: 9.25
+lightColor: bf92f9
+//mineSpeed: 5
+//mineTier: 2
+health: 800
+armor: 6
+range: 400
+itemCapacity: 80
+hitSize: 14
+rotateShooting: false
+immunities: [wet, sapped, corroded]
+trailLength: 30
+trailX: 0
+trailY: -5
+
+weapons:[
+  {
+    name: scylla-laser
+    x: -8
+    y: 2
+    shootY: 4
+    recoil: 0
+    reload: 40
+    rotate: true
+    mirror: false
+    soundPitchMin: 0.92
+    soundPitchMax: 0.74
+    shootSound: sap
+    bullet:{
+      type: SapBulletType
+	  shootEffect: sparkShoot
+	  frontColor: 7955bf
+	  backColor: 6449bf
+	  color: bf92f9
+	  hitColor: bf92f9
+      sapStrength: 0.75
+      width: 1.5
+      length: 200
+      lifetime: 25
+	  damage: 48
+	  knockback: -4
+	  hittable: false
+      shootEffect: shootBig2
+    }
+  },
+  {
+    name: scylla-laser
+    x: 8
+    y: 2
+    shootY: 4
+    recoil: 0
+    reload: 40.01
+    rotate: true
+    mirror: false
+    soundPitchMin: 0.92
+    soundPitchMax: 0.74
+    shootSound: sap
+    bullet:{
+      type: SapBulletType
+	  shootEffect: sparkShoot
+	  frontColor: 7955bf
+	  backColor: 6449bf
+	  color: bf92f9
+	  hitColor: bf92f9
+      sapStrength: 0.75
+      width: 1.5
+      length: 200
+      lifetime: 25
+	  damage: 48
+	  knockback: -4
+	  hittable: false
+      shootEffect: shootBig2
+    }
+  },
+  {
+    name: scylla-laser
+    x: 0
+    y: 11
+    shootY: 4
+    recoil: 0
+    reload: 40.137
+    rotate: true
+    mirror: false
+    soundPitchMin: 0.92
+    soundPitchMax: 0.74
+    shootSound: sap
+    bullet:{
+      type: SapBulletType
+	  shootEffect: sparkShoot
+      sapStrength: 0.75
+	  color: bf92f9
+	  hitColor: bf92f9
+      width: 1.5
+      length: 200
+      lifetime: 25
+	  damage: 32
+	  knockback: -4
+	  hittable: false
+      shootEffect: shootBig2
+    }
+  },
+  {
+    name: scylla-artillery
+    x: 0
+    y: -7.2
+    shootY: 4
+    recoil: 3
+    reload: 80
+	shots: 1
+	inaccuracy: 2
+	velocityRnd: 0.01
+	rotateSpeed: 8
+	occlusion: 6
+    rotate: true
+    mirror: false
+    soundPitchMin: 2.5
+    soundPitchMax: 3.75
+    shootSound: laser
+    bullet:{
+      type: ArtilleryBulletType
+	  frontColor: 9f43ff
+	  hitColor: 9f43ff
+	  backColor: be4eff
+	  trailColor: be4eff
+	  lightColor: be4eff
+      width: 12
+      height: 24
+	  status: sapped
+	  statusDuration: 240
+      speed: 8
+      sprite: diamond-ore-diamondshell
+	  shrinkX: 0
+	  shrinkY: 0
+      lifetime: 60
+	  damage: 20
+	  splashDamage: 120
+	  splashDamageRadius: 120
+	  shake: 2.8
+	  reflectable: false
+	  absorbable: false
+	  trailEffect: melting
+	  shootEffect: sparkShoot
+	  sokeEffect: shootLiquid
+	  hitEffect: sapExplosion
+	  despawnEffect: shockwave
+	  trailChance: 0.8
+	  fragBullets: 30
+	  fragBullet:{
+        type: SapBulletType
+		collidesAir: false
+        sapStrength: 0 //"SapBulletTypes are only intended to be shot directly." Oh, go to brazil, Anuken
+		color: be4eff
+		keepVelocity: false
+        width: 0.7
+        weaveScale: 0.7
+        weaveMag: 4
+        length: 80
+        //lengthRand: 40
+        lifetime: 15
+	    damage: 8
+	    knockback: -12
+	    hittable: false
+      }
+    }
+  }
+]
+
+research: {
+  parent: serpent
+  requirements:[
+      silicon/15200
+      titanium/17000
+      metaglass/13000
+      plate/7800
+      vicvium/6500
+  ]
+}

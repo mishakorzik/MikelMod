@@ -1,0 +1,57 @@
+{
+    "name": "Vicvium Smelter",
+    "type": "GenericCrafter",
+    "health": 340,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 48,
+    "buildCostMultiplier": 0.6,
+    "updateEffect": "melting",
+    "craftEffect": "explosion",
+    "outputItem": {
+        "item": "vicvium",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 4,
+        "items": {
+            "items": [
+                {
+                    "item": "titanium",
+                    "amount": 3
+                },
+                {
+                    "item": "plastanium",
+                    "amount": 2
+                }
+                {
+                    "item": "lithium",
+                    "amount": 2
+                }
+            ]
+        }
+    },
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 200
+        },
+        {
+            "item": "silicon",
+            "amount": 150
+        },
+        {
+            "item": "graphite",
+            "amount": 350
+        },
+        {
+            "item": "titanium",
+            "amount": 200
+        }
+    ],
+    "category": "crafting",
+    "research": "multi-press"
+}

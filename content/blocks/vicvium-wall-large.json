@@ -1,0 +1,12 @@
+{
+	"name": "Vicvium wall",
+	"description": "A very good wall will do for a start, but it won't last long",
+	"type": "Wall",
+	"health": 1560,
+	"size": 1,
+	"requirements": [
+		{"item": "vicvium", "amount": 24}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

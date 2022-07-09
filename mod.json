@@ -1,0 +1,10 @@
+{
+	"name": "MikelMod",
+	"displayName": "MikelMod",
+	"author": "[lightgray].[gray]he1[darkgrey]zen",
+	"description": "[green] The mod adds: walls, units, repairers and much more.",
+	"version": "1.1.0 Beta",
+
+	"minGameVersion": "136",
+	"depencies": []
+}

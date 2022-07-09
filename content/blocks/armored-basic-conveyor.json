@@ -1,0 +1,13 @@
+{
+    "name": "armored conveyor",
+    "description": "the most armored conveyor",
+    "type": "ArmoredConveyor",
+    "category": "distribution",
+    "health": 225,
+    "speed": 0.05,
+    "research": "conveyor",
+    "requirements": [
+        { "item": "plate", "amount": 2 },
+        { "item": "graphite", "amount": 1 }
+    ]
+}

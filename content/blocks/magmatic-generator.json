@@ -1,0 +1,39 @@
+{
+    "name": "Big Thermal Generator",
+    "description": "Big heat generator, this heat generator is the best, a lot of energy",
+    "type": "ThermalGenerator",
+    "health": 340,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": false,
+    "placeableLiquid": false,
+    "buildCostMultiplier": 0.6,
+    "powerProduction": 2.6,
+    "attribute": "heat",
+    "generateEffect": "melting",
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 80
+        },
+        {
+            "item": "titanium",
+            "amount": 120
+        },
+        {
+            "item": "metaglass",
+            "amount": 80
+        },
+        {
+            "item": "silicon",
+            "amount": 50
+        },
+        {
+            "item": "graphite",
+            "amount": 70
+        }
+    ],
+    "category": "power",
+    "research": "differential-generator"
+}

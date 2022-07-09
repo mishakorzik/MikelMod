@@ -1,0 +1,12 @@
+{
+	"name": "Plate wall",
+	"description": "Very strong wall",
+	"type": "Wall",
+	"health": 720,
+	"size": 1,
+	"requirements": [
+		{"item": "plate", "amount": 6}
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

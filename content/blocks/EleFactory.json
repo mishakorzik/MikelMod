@@ -1,0 +1,36 @@
+{
+"name": "Unit Rechanger",
+"desvription": "For creating new drons!",
+"type": "UnitFactory",
+"researchCostMultiplier": 0.3,
+"size": 3,
+"consumes": {
+"power": 5
+},
+"plans": [
+{
+    "unit": "a-orion",
+    	"requirements": [
+		{"item": "cobalt", "amount": 40},
+		{"item": "refium", "amount": 25}
+       ],
+    "time": 1820
+  },
+  {
+    "unit": "majoris",
+    	"requirements": [
+		{"item": "cobalt", "amount": 35},
+		{"item": "metaglass", "amount": 25}
+       ],
+    "time": 1240
+  }
+],
+    "requirements": [
+	{"item": "silicon", "amount": 580},
+	{"item": "graphite", "amount": 180},
+	{"item": "cobalt", "amount": 180},
+	{"item": "titanium", "amount": 160}
+],
+"category": "units",
+"research": "ground-factory"
+}

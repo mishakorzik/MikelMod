@@ -1,0 +1,28 @@
+{
+        "name": "Multi Reconstructor",
+        "description": "Pumps drones to a new level, thus drones become stronger and better",
+	"type": "Reconstructor",
+	"size": 5,
+	"constructTime": 800,
+	"consumes": {
+		"power": 13,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 240},
+				{"item": "plate", "amount": 160},
+				{"item": "thorium", "amount": 220}
+			]
+		}
+	},
+	"requirements": [
+		{"item": "plate", "amount": 350},
+		{"item": "silicon", "amount": 180},
+		{"item": "metaglass", "amount": 280},
+		{"item": "thorium", "amount": 100}
+	],
+	"upgrades": [
+		["a-orion", "b-galileo"]
+	],
+	"category": "units",
+	"research": "multiplicative-reconstructor"
+}
