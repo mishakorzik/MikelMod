@@ -1,7 +1,7 @@
 {
-	"type": "material",
 	"name": "lithium",
 	"description": "material that is widely used",
+	"type": "material",
 	"color": "818182",
 	"explosiveness": 0.6f,
 	"flammability": 0.1f,

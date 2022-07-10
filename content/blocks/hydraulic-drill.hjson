@@ -1,0 +1,15 @@
+name: Hydraulic drill
+description: A good drill for extracting resources
+type: Drill
+size: 3
+tier: 3
+drawMineItem: true
+requirements: [
+  copper/10
+  lead/15
+  lithium/30
+  graphite/20
+  metaglass/15
+]
+category: production
+research: mechanical-drill

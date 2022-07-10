@@ -1,0 +1,14 @@
+name: Imported drill
+description: A good drill for extracting resources
+type: Drill
+size: 2
+tier: 4
+drawMineItem: true
+requirements: [
+  cobalt/10
+  lead/15
+  lithium/30
+  silicon/20
+]
+category: production
+research: mechanical-drill

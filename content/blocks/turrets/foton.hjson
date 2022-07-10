@@ -1,22 +1,22 @@
-health: 1850
+health: 340
 type: ItemTurret
-name: Back Shoter
-description: Very fast firing turret with high damage
-size: 4
-reloadTime: 90
+name: Foton
+description: Fires rounds that deal a lot of damage
+size: 1
+reloadTime: 200
 shots: 25
 ejectEffect: shellEjectSmall
-inaccuracy: 12
+inaccuracy: 2
 spread: 0
 rotateSpeed: 4
-range: 240
+range: 150
 recoil: 3.5
 velocityInaccuracy: 0.3
 targetAir: false
 ammoTypes: {
-  lead: {
-    speed: 6.2
-    damage: 15
+  copper: {
+    speed: 4.4
+    damage: 12
     ammoMultiplier: 2
     pierce: true
     lifetime: 40
@@ -27,11 +27,25 @@ ammoTypes: {
     bulletWidth: 2
     bulletHeight: 3
     collidesAir: false
-    reloadMultiplier: 2.6
+    sprite: ArtilleryBulletType
+  }
+  lead: {
+    speed: 4.6
+    damage: 15
+    ammoMultiplier: 2
+    pierce: true
+    lifetime: 40
+    homingPower: 0.05
+    homingRange: 240
+    backColor: 000000
+    frontColor: ffff00
+    bulletWidth: 3
+    bulletHeight: 4
+    collidesAir: false
     sprite: ArtilleryBulletType
   }
   cobalt: {
-    speed: 5.8
+    speed: 4.3
     damage: 18
     ammoMultiplier: 2
     pierce: true
@@ -43,27 +57,10 @@ ammoTypes: {
     bulletWidth: 3
     bulletHeight: 4
     collidesAir: false
-    reloadMultiplier: 2.7
-    sprite: ArtilleryBulletType
-  }
-  vicvium: {
-    speed: 6.1
-    damage: 21
-    ammoMultiplier: 2
-    pierce: true
-    lifetime: 40
-    homingPower: 0.05
-    homingRange: 240
-    backColor: 000000
-    frontColor: ffff00
-    bulletWidth: 3
-    bulletHeight: 4
-    collidesAir: false
-    reloadMultiplier: 2.5
     sprite: ArtilleryBulletType
   }
   plate: {
-    speed: 6.5
+    speed: 4.5
     damage: 26
     ammoMultiplier: 2
     pierce: true
@@ -75,7 +72,6 @@ ammoTypes: {
     bulletWidth: 4
     bulletHeight: 5
     collidesAir: false
-    reloadMultiplier: 2.6
     sprite: ArtilleryBulletType
   }
 }
@@ -88,4 +84,4 @@ requirements: [
 ]
 research: scoria
 category: turret
-shootSound: shotgun
+shootSound: shoot1
