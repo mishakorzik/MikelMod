@@ -1,6 +1,6 @@
 name: Transit bridge conveyor
 type: BufferedItemBridge
-description: This is a fast bridge conveyor for transferring items 7 blocks away
+description: This is a fast bridge conveyor for transferring items 15 blocks away
 category: distribution
 research: bridge-conveyor
 #
@@ -8,8 +8,10 @@ requirements: [
     lithium/10
     cobalt/15
     metaglass/5
+    phase-fabric/10
+    refium/5
 ]
 #
-range: 7
+range: 15
 transportTime: 1
 itemCapacity: 20

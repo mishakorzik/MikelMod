@@ -1,0 +1,23 @@
+type: "LightBlock"
+name: "Large Illuminator"
+description: "Lights up an area in a long radius, can change settings." 
+
+// BuildVisibility: lightingOnly 
+
+size: 4
+brightness: 1.00
+radius: 250
+
+consumes:{
+power: 1.2
+}
+
+requirements: [
+graphite/16
+silicon/8
+metaglass/4
+]
+
+category: "effect" 
+
+research: "illuminator"

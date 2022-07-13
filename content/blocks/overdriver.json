@@ -1,0 +1,41 @@
+{
+    "name": "Mini ovedriver",
+    "description": "A fast accelerator accelerates everything around it.  And most importantly, he is small",
+    "type": "OverdriveProjector",
+    "health": 135,
+    "size": 1,
+    "range": 48,
+    "reload": 66,
+    "speedBoost": 1.250,
+    "buildCostMultiplier": 0.8,
+    "phaseRangeBoost": 60,
+    "speedBoostPhase": 0.5,
+    "consumes": {
+        "power": 1.5,
+        "items": {
+            "items": [
+                {
+                    "amount": 1,
+                    "item": "silicon"
+                }
+            ],
+            "optional": true
+        }
+    },
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 50
+        },
+        {
+            "item": "silicon",
+            "amount": 20
+        },
+        {
+            "item": "titanium",
+            "amount": 35
+        }
+    ],
+    "category": "effect",
+    "research": "mender"
+}

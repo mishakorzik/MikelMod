@@ -39,12 +39,7 @@
                 "homingRange": 80,
                 "weaveScale": 4,
                 "weaveMag": 1.5,
-                "status": {
-                    "name": "riptide",
-                    "healthMultiplier": 0.95,
-                    "effect": "hitLiquid",
-                    "permanent": true,
-                },
+                "status": "melting",
                 "fragBullets": 1,
                 "fragCone": 0.0001,
                 "hitSound": "shotgun",

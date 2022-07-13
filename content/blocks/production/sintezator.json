@@ -1,7 +1,6 @@
 {
   "name": "Sintezator",
   "type": "GenericCrafter",
-  "localizedName": "Sintezator",
   "description": "A factory for the production of a strong metal plate",
   "health": 560,
   "size": 2,

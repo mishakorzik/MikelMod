@@ -1,0 +1,37 @@
+{
+	name: "Morcius"
+	description: "A turret that doesn't need ammo"
+	type: PowerTurret
+	health: 470
+	size: 2
+	recoilAmount: 0
+	reloadTime: 5.0
+	shots: 5
+	shootSound: spark
+	shootCone: 15.0
+	shootCone: 15
+	range: 200
+	chargeMaxDelay: 30
+	shootType: {
+		type: LightningBulletType
+		damage: 17.7
+		status: freezed
+		statusDuration: 420
+		lightningLength: 25
+    collidesAir: true
+	}
+	powerUse: 18.0
+	inaccuracy: 7.0
+	rotateSpeed: 2.0
+	chargeEffects: 0.0
+	coolantMultiplier: 0.7
+	requirements: [
+		titanium/120
+		cobalt/230
+		metaglass/45
+		graphite/70
+		plate/20
+	]
+	category: turret
+	research: laser-turret
+}

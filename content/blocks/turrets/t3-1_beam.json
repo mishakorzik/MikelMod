@@ -29,6 +29,7 @@
         "height": 35,
         "width": 15,
         "lifetime": 90,
+        "lightningLength": 25,
         "lightning": 10,
         "lightningLength": 12,
         "frontColor": "E8D174",

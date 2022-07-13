@@ -1,5 +1,5 @@
 {
-  "localizedName": "Furnace",
+  "name": "Furnace",
   "description": "Uses the heat of pyratite to mix lead and sand into metaglass",
   "type": "GenericCrafter",
   "boostScale": 0.15,
